@@ -1114,7 +1114,7 @@ impl ExpansionConfig {
             crate_name: crate_name,
             deriving_hash_type_parameter: false,
             enable_quotes: false,
-            recursion_limit: 64,
+            recursion_limit: 512,
         }
     }
 }
